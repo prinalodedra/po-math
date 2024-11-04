@@ -7,7 +7,7 @@ describe('Math Functions', () => {
     });
 
     test('sum with invalid input', () => {
-        expect(mathFunctions.sum(parseInt('a'), 5)).toBe("Please enter valid values");
+        expect(mathFunctions.sum(parseInt('a'), 5)).toBe("Please enter valid value");
     });
 
     test('subtract with valid numbers', () => {
@@ -15,7 +15,7 @@ describe('Math Functions', () => {
     });
 
     test('subtract with invalid input', () => {
-        expect(mathFunctions.subtract(parseInt('a'), 5)).toBe("Please enter valid values");
+        expect(mathFunctions.subtract(parseInt('a'), 5)).toBe("Please enter valid value");
     });
 
     test('multiply with valid numbers', () => {
@@ -23,7 +23,7 @@ describe('Math Functions', () => {
     });
 
     test('multiply with invalid input', () => {
-        expect(mathFunctions.multiply(parseInt('a'), 4)).toBe("Please enter valid values");
+        expect(mathFunctions.multiply(parseInt('a'), 4)).toBe("Please enter valid value");
     });
 
     test('divide with valid numbers', () => {

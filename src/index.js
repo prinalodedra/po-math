@@ -1,19 +1,19 @@
 const mathFunctions = {
     sum: (a, b) => {
         if (typeof a !== 'number' || typeof b !== 'number' || isNaN(a) || isNaN(b)) {
-            return "Please enter valid values";
+            return "Please enter valid value";
         }
         return a + b;
     },
     subtract: (a, b) => {
         if (typeof a !== 'number' || typeof b !== 'number' || isNaN(a) || isNaN(b)) {
-            return "Please enter valid values";
+            return "Please enter valid value";
         }
         return a - b;
     },
     divide: (a, b) => {
         if (typeof a !== 'number' || typeof b !== 'number' || isNaN(a) || isNaN(b)) {
-            return "Please enter valid values";
+            return "Please enter valid value";
         }
         if (b === 0) {
             return "Cannot divide by zero";
@@ -22,7 +22,7 @@ const mathFunctions = {
     },
     multiply: (a, b) => {
         if (typeof a !== 'number' || typeof b !== 'number' || isNaN(a) || isNaN(b)) {
-            return "Please enter valid values";
+            return "Please enter valid value";
         }
         return a * b;
     }
