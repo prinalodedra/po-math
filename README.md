@@ -92,6 +92,9 @@ Throws: An error if b is zero.
 
 Below are some examples demonstrating how to use the po-math package:
 
+[Demo](#https://codesandbox.io/p/sandbox/hnvn93)
+
+
 ```javascript
 const poMath = require('po-math');
 
