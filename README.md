@@ -22,7 +22,7 @@ npm install po-math
 You can install the `po-math` package via yarn:
 
 ```bash
-yarn po-math
+yarn add po-math
 ```
 
 ## Usage
