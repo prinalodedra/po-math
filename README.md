@@ -98,8 +98,6 @@ Below are some examples demonstrating how to use the po-math package:
 ```javascript
 const poMath = require('po-math');
 
-// Addition
-import "./styles.css";
 import mathFunctions from "po-math";
 
 export default function App() {
