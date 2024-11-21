@@ -99,23 +99,25 @@ Below are some examples demonstrating how to use the po-math package:
 const poMath = require('po-math');
 
 // Addition
-const sum = poMath.add(5, 3);
-console.log(`Sum: ${sum}`); // Output: Sum: 8
+import "./styles.css";
+import mathFunctions from "po-math";
 
-// Subtraction
-const difference = poMath.subtract(10, 4);
-console.log(`Difference: ${difference}`); // Output: Difference: 6
+export default function App() {
+  const sum = mathFunctions.sum(5, 6);
+  const substract = mathFunctions.subtract(6, 4);
+  const multiply = mathFunctions.multiply(2, 3);
+  const devide = mathFunctions.divide(10, 2);
 
-// Multiplication
-const product = poMath.multiply(2, 3);
-console.log(`Product: ${product}`); // Output: Product: 6
+  return (
+    <div className="App">
+      <h1>Example :</h1>
 
-// Division
-try {
-  const quotient = poMath.divide(8, 2);
-  console.log(`Quotient: ${quotient}`); // Output: Quotient: 4
-} catch (error) {
-  console.error(error.message);
+      <h1>Sum of (5, 6) = {sum}</h1>
+      <h1>Substract of (6, 4) = {substract}</h1>
+      <h1>multiply of (2, 3) = {multiply}</h1>
+      <h1>10 devid by 2 = {devide}</h1>
+    </div>
+  );
 }
 
 ```
