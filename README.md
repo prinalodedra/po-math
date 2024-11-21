@@ -100,7 +100,7 @@ const poMath = require('po-math');
 
 import mathFunctions from "po-math";
 
-export default function App() {
+export default function math() {
   const sum = mathFunctions.sum(5, 6);
   const substract = mathFunctions.subtract(6, 4);
   const multiply = mathFunctions.multiply(2, 3);
