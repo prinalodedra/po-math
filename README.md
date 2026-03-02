@@ -122,7 +122,7 @@ export default function math() {
 
 ## Contributing
 
-Contributions are welcome! If you have any ideas, suggestions, or issues, feel free to create an issue or submit a pull request to the GitHub repository.
+Contributions are welcome! If you have any ideas, suggestions, or issues, feel free to connect via email prinalodedra@gmail.com
 
 ## License
 
